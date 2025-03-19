@@ -4,8 +4,8 @@ import json
 from playwright.sync_api import sync_playwright
 
 # Load X credentials securely
-X_USERNAME = os.getenv("X_USERNAME")
-X_PASSWORD = os.getenv("X_PASSWORD")
+X_USERNAME = os.getenv("jihar98025@winsita.com")
+X_PASSWORD = os.getenv("M@ramr06U")
 
 if not X_USERNAME or not X_PASSWORD:
     raise ValueError("❌ Missing X_USERNAME or X_PASSWORD.")
